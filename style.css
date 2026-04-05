@@ -1,255 +1,202 @@
- body {
-    background-color: #abcbff; 
-    background-position: 30%;
-
-}
-.ne {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(109, 160, 255);
-    border: 2px solid #3498db;
-    right: 80px;
-    bottom: 20px;
-    font-size: 50px;
-    padding-left: 00px
-}
-.terpilo {
-    color: #ffffff;
-    background-color: #4db8ff;
-    border: 2px solid #000000;
-    bottom: 20px;
-    border-radius: 8px;
-}
-.terpilo1 {
-    color: #ffffff;
-    background-color: #48b6ff;
-    border: 2px solid #000000;
-    bottom: 20px;
-    border-radius: 8px;
-    position: relative;
-    top: -200px;
-}
-
-
-a {
-    border: 2px solid #000000;
-    font-size: 20px;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffffff; 
-    border-radius: 8px;
-    
-}
-.alex {
-    color: rgb(255, 255, 255);
-    background-color:rgb(85, 204, 255);
-    border-radius: 5px; 
-    position: relative;
-    top: -40px;    
-    margin-left: 25px;
-    font-size: 30px;
-}
-
-        
-.pipi {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 84, 84);
-    border-radius: 5px;
-    position: relative;
-    top: -40px; 
-    margin-left: 25px;
-    font-size: 30px;
-}
-
-.id-1231 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 192);
-    border-radius: 5px;
-    position: relative;
-    top: -40px; 
-    margin-left: 20px;
-    font-size: 30px;
-}
-.spotify {
-    color: rgb(255, 255, 255);
-    background-color: rgb(4, 255, 0);
-    border-radius: 5px;
-    position: relative;
-    top: -40px; 
-    margin-left: 25px;
-    font-size: 30px;
-}
-.fuck {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 16, 186);
-    border-radius: 5px;
-    position: relative;
-    top: -40px; 
-    margin-left: 25px;
-    font-size: 30px;
-}
-.X {
-    color: rgb(255, 255, 255); 
-    background-color: rgb(0, 0, 0);
-    border-radius: 8px;
-    position: relative;
-    top: -40px; 
-    margin-left: 20px;
-    font-size: 30px;
-}
-.GITHUB {
-    color: rgb(255, 255, 255); 
-    background-color: rgb(0, 0, 0);
-    border-radius: 8px;
-    position: relative;
-    top: -40px; 
-    margin-left: 20px;
-    font-size: 30px;
-}
-.links {
-    color: rgb(255, 255, 255); 
-    background-color: rgb(0, 51, 255);
-    border-radius: 8px;
-    position: relative;
-    top: -40px; 
-    margin-left: 20px;
-    font-size: 30px;
-}
-.h1 {
-    width: 200px;
-    height: auto;
-}
-.alex1 {
-    font-size: 20px;
-    position: fixed;
-    right: 20px;
-    bottom: 620px;
-    padding: 10px 20px;
-    background-color: #63afff;
-    color: #ffffff;
-    border: 2px solid #000000;
-    cursor: pointer;
-    
-}
-.aleh {
-    width:12%;
-    height: auto;
-    text-align: center;
-    font-size: 50px;
-
-
-}
-.ale1 {
-    font-size: 50px;
-}
-.form {
-    
-}
-
-img {
-    width: 300px; 
-    height: auto; 
-}
-.ale2 {
-
-    
-}
-
-/* Основний контейнер для позиціонування */
-.cute-player-container {
-    position: fixed; 
-    bottom: 20px;    
-    right: 20px;     
-    z-index: 9999;   
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-.player-card {
-    background: white;
+/* --- Базові налаштування для всього сайту (щоб виглядав акуратніше) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Сучасний шрифт */
+    background-color: #121212; /* Глибокий темний фон */
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin: 0;
     padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.6);
-    text-align: center;
-    width: 180px; 
-    transition: transform 0.3s ease; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центруємо вміст */
 }
 
-
-.player-card:hover {
-    transform: translateY(-5px);
-}
-
-.cover img {
-    width: 100px; 
-    height: 100px;
-    border-radius: 15px;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border: 3px solid #f8bbd0;
-}
-
-.info h2 {
-    font-size: 1rem;
-    margin: 5px 0 2px;
-    color: #880e4f;
-    white-space: nowrap; /
-    overflow, hidden;    
-    text-overflow: ellipsis; 
-}
-
-.info p {
-    font-size: 0.8rem;
-    color: #ad1457;
-    margin-bottom: 15px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.btn {
-    background-color: #ff80ab;
-    border: none;
-    color: white;
-    padding: 8px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-    width: 100%; 
-}
-
-.btn:hover {
-    background-color: #f50057;
-    transform: scale(1.05);
-}
-
-.btn:active {
-    transform: scale(0.95);
-}
-
-.meme {
-    font-size: 1.5rem;
-    color: #ff71a1;
-}
-
-.download-button {
+/* --- Універсальний стиль для УСІХ кнопок та посилань-кнопок --- */
+/* Ми створюємо один клас .btn-universal і додамо його до всіх кнопок в HTML */
+.btn-universal, 
+.cute-player-container .btn, /* Стиль для кнопки плеєра */
+.script-download .download-button, /* Стиль для завантаження */
+.form button, /* Стиль для реєстрації */
+.links a { /* Стиль для верхніх посилань (якщо вони в контейнері .links) */
     display: inline-block;
-    padding: 12px 24px;
-    background-color: #4CAF50; 
+    padding: 10px 20px;
+    background-color: #1e1e1e; /* Темний, але світліший за фон */
     color: white;
     text-decoration: none;
+    border-radius: 8px; /* Закруглені кути */
+    border: 1px solid #333; /* Тонка рамка */
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    
+    /* ОЦЕ НАЙВАЖЛИВІШЕ ДЛЯ "ДОРОГОГО" ВИГЛЯДУ */
+    transition: all 0.3s ease; /* Плавна зміна УСІХ властивостей за 0.3 секунди */
+    
+    /* Тінь для об'єму */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* --- Анімація при наведенні (Hover) --- */
+.btn-universal:hover,
+.cute-player-container .btn:hover,
+.script-download .download-button:hover,
+.form button:hover,
+.links a:hover {
+    background-color: #2a2a2a; /* Легке висвітлення фону */
+    border-color: #007acc; /* Колір акценту (як у VS Code) */
+    transform: translateY(-2px); /* Легке підняття вгору */
+    box-shadow: 0 5px 15px rgba(0, 122, 204, 0.3); /* Неонове світіння */
+}
+
+/* --- Анімація при натисканні (Active) --- */
+.btn-universal:active,
+.cute-player-container .btn:active,
+.script-download .download-button:active,
+.form button:active,
+.links a:active {
+    transform: translateY(1px); /* Ефект продавлювання */
+    box-shadow: 0 2px 4px rgba(0, 122, 204, 0.2);
+}
+
+/* --- Специфічні налаштування для верхніх посилань (STEAM, YOUTUBE тощо) --- */
+/* Щоб вони стояли в ряд і мали відступи */
+div:has(.id-1231) { /* Знаходимо контейнер з посиланнями */
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Дамо кожному посиланню колір акценту при наведенні, як у тебе було */
+.links a.id-1231:hover { border-color: #171a21; box-shadow: 0 5px 15px rgba(23, 26, 33, 0.4); } /* Steam */
+.links a.pipi:hover { border-color: #ff0000; box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4); } /* Youtube */
+.links a.alex:hover { border-color: #0088cc; box-shadow: 0 5px 15px rgba(0, 136, 204, 0.4); } /* Telegram */
+.links a.spotify:hover { border-color: #1db954; box-shadow: 0 5px 15px rgba(29, 185, 84, 0.4); } /* Spotify */
+.links a.X:hover { border-color: #ffffff; box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2); } /* X */
+.links a.GITHUB:hover { border-color: #fafafa; box-shadow: 0 5px 15px rgba(250, 250, 250, 0.2); } /* Github */
+
+/* --- Налаштування для плеєра (щоб він не виділявся) --- */
+.cute-player-container {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.player-card {
+    background: #1a1a1a; /* Такий же темний, як кнопки */
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 350px;
+    transition: border-color 0.3s ease;
+}
+
+.player-card:hover {
+    border-color: #007acc; /* Плеєр теж реагує на наведення всім корпусом */
+}
+
+.player-card .cover img {
+    width: 60px;
+    height: 60px;
     border-radius: 8px;
-    font-weight: bold;
-    transition: background 0.3s, transform 0.2s;
+    object-fit: cover;
 }
 
-.download-button:hover {
+.player-card .info h2 {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    color: white;
+}
+
+.player-card .info p {
+    font-size: 12px;
+    margin: 0;
+    color: #aaa;
+}
+
+/* Кнопка всередині плеєра тепер автоматично підхоплює загальний стиль .btn */
+.cute-player-container .controls .btn {
+    padding: 8px 16px; /* Трохи менша */
+    background-color: #007acc; /* Основний колір акценту */
+    border: none;
+}
+
+.cute-player-container .controls .btn:hover {
+    background-color: #005f99;
+}
+
+/* --- Налаштування для секції скриптів --- */
+.script-download {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 350px;
+    text-align: center;
+}
+
+.script-download h3 {
+    margin-top: 0;
+    color: white;
+}
+
+/* Кнопка завантаження теж підхоплює стиль */
+.script-download .download-button {
+    background-color: #4CAF50; /* Зелений для завантаження */
+    border: none;
+    margin-top: 10px;
+}
+
+.script-download .download-button:hover {
     background-color: #45a049;
-    transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
 }
 
-.download-button:active {
-    transform: scale(0.98); 
+/* --- Стилізація форми реєстрації --- */
+.form {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form p { margin: 0 0 10px 0; color: white; font-weight: bold; text-align: center;}
+.form b { font-size: 12px; color: #aaa; }
+
+.form input {
+    padding: 10px;
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: white;
+    transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: #007acc; /* Підсвічування поля при кліку */
+}
+
+/* Кнопка реєстрації теж підхоплює стиль */
+.form button {
+    background-color: #007acc;
+    border: none;
+    margin-top: 10px;
+}
+
+.form button:hover {
+    background-color: #005f99;
 }

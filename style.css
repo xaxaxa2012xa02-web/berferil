@@ -155,4 +155,77 @@ img {
     
 }
 
+/* Основний контейнер для позиціонування */
+.cute-player-container {
+    position: fixed; 
+    bottom: 20px;    
+    right: 20px;     
+    z-index: 9999;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.player-card {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.6);
+    text-align: center;
+    width: 180px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+.cover img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #f8bbd0;
+}
+
+.info h2 {
+    font-size: 1rem;
+    margin: 5px 0 2px;
+    color: #880e4f;
+    white-space: nowrap; /
+    overflow, hidden;    
+    text-overflow: ellipsis; 
+}
+
+.info p {
+    font-size: 0.8rem;
+    color: #ad1457;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    background-color: #ff80ab;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    width: 100%; 
+}
+
+.btn:hover {
+    background-color: #f50057;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
 

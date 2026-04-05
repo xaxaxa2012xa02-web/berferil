@@ -229,3 +229,27 @@ img {
     transform: scale(0.95);
 }
 
+.meme {
+    font-size: 1.5rem;
+    color: #ff71a1;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); 
+}
+
+.download-button:active {
+    transform: scale(0.98); 
+}

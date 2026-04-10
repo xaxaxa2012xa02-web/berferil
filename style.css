@@ -10,6 +10,12 @@ body {
     flex-direction: column;
     align-items: center; /* Центруємо вміст */
 }
+.ne {
+    font-size: 50px;
+    color: #4322ff; /* Яскравий колір для привернення уваги */
+    text-shadow: 0 0 5px rgba(67, 34, 255, 0.7); /* Світіння для ефекту "дорогості" */
+
+}
 
 /* --- Універсальний стиль для УСІХ кнопок та посилань-кнопок --- */
 /* Ми створюємо один клас .btn-universal і додамо його до всіх кнопок в HTML */
@@ -187,10 +193,10 @@ div:has(.id-1231) { /* Знаходимо контейнер з посиланн
 
 .form input:focus {
     outline: none;
-    border-color: #007acc; /* Підсвічування поля при кліку */
+    border-color: #007acc; 
 }
 
-/* Кнопка реєстрації теж підхоплює стиль */
+
 .form button {
     background-color: #007acc;
     border: none;
@@ -199,4 +205,41 @@ div:has(.id-1231) { /* Знаходимо контейнер з посиланн
 
 .form button:hover {
     background-color: #005f99;
+}
+.zavatazena {
+    font-size: 24px;
+    color: #ff5722; 
+    text-shadow: 0 0 5px rgba(255, 87, 34, 0.7); 
+}
+.yo{
+    font-size: 20px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 350px;
+    text-align: center;
+}
+.meme {
+    font-size: 50px;
+    color: #ff4081; 
+    text-shadow: 0 0 5px rgba(128, 0, 42, 0.7); 
+}
+.size {
+    
+    font-size: 30px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 350px;
+    text-align: center;
+}
+.return {
+    font-size: 30px;
+    margin-top: 20px;
+    align-self: center; 
+
 }
